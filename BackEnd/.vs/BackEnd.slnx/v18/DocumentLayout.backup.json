@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Visual Studio\\PhotoPost\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A8D9FE2-58E4-43FD-99D7-0CEEF536C469}|BackEnd.csproj|c:\\visual studio\\photopost\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A8D9FE2-58E4-43FD-99D7-0CEEF536C469}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|BackEnd.csproj|c:\\visual studio\\photopost\\backend\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|BackEnd.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|BackEnd.csproj|c:\\visual studio\\photopost\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Visual Studio\\PhotoPost\\BackEnd\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Visual Studio\\PhotoPost\\BackEnd\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T14:56:51.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Visual Studio\\PhotoPost\\BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Visual Studio\\PhotoPost\\BackEnd\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T23:38:28.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T23:38:28.65Z"
             }
           ]
         }
