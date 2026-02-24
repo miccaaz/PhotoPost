@@ -14,7 +14,10 @@ public class Post
     public string mediaType { get; set; }
 
     public DateTime createdAt { get; set; } = DateTime.UtcNow;
-    public DateTime úpdateAt { get; set; } = DateTime.UtcNow;
+    public DateTime updatedAt { get; set; } = DateTime.UtcNow;
+
+    public ICollection<Comment> comments { get; set; } = new List<Comment>();
+    public ICollection<Like> likes { get; set; } = new List<Like>();
 
     public Post(string description, string mediaUrl, string mediatype)
     {

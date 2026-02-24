@@ -8,20 +8,22 @@ public class User
     public Guid id { get; set; } 
 
     public string username { get; set; } = null!;
-    public string passaword { get; set; } = null!;
+    public string passwordHash { get; set; } = null!;
 
     public string? bio { get; set; }
     public string? profileImageUrl { get; private set; }
 
     public DateTime createdAt { get; set; } = DateTime.UtcNow;
-    public DateTime updateAt { get; set; } = DateTime.UtcNow;
+    public DateTime updatedAt { get; set; } = DateTime.UtcNow;
 
-    public ICollection<Post> Posts { get; set; } = new List<Post>();
+    public ICollection<Post> posts { get; set; } = new List<Post>();
+    public ICollection<Comment> comments { get; set; } = new List<Comment>();
+    public ICollection<Like> likes { get; set; } = new List<Like>();
 
-    public User(string username, string passaword, string bio, string profileImageUrl)
+    public User(string username, string passwordHash, string bio, string profileImageUrl)
     {
         this.username = username ?? throw new ArgumentNullException(nameof(username));
-        this.passaword = passaword;
+        this.passwordHash = passwordHash;
         this.bio = bio;
         this.profileImageUrl = profileImageUrl;
     }
